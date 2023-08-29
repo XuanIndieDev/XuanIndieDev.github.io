@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fusion-pixel-12px-proportional';
+    src: url('fusion-pixel-12px-proportional.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(193, 211, 149);
+    margin: 0 1rem;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-family: 'fusion-pixel-12px-proportional';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 1rem;
+    width: 100px;
+    height: 35px;
+    border-radius: 3rem;
+    background-color: rgb(167, 190, 112);
+    font-size: 16px;
+    font-family: 'fusion-pixel-12px-proportional';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(61, 98, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(61, 98, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(167, 190, 112);
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-family: 'fusion-pixel-12px-proportional';
+    color: rgb(37, 63, 32);
+}
+
+button:hover{
+    color: rgb(167, 190, 112);
+    background-color:  rgb(37, 63, 32);
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.by {
+    font-size: 4rem;
+    font-family: 'fusion-pixel-12px-proportional';
+    color: rgb(159, 180, 105);
+}
+
+
+.yuyue {
+    padding: 2rem;
+}
+
+.bg1 {
+    position: sticky;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: color;
+    background-attachment: fixed;
+    background-image: url(https://img1.imgtp.com/2023/08/25/3SsGkAqp.png);
+    background-size: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 6rem;
+}
+
+.bg2 {
+    background-color: rgb(167, 190, 112);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg3 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.jingju {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    width: 300px;
+    height: 300px;
+}
+
+.contact a {
+    color: aliceblue;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 63, 32);
+}
+
+.contact a:hover {
+    color: aliceblue;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 190, 112);
+}
+
+.bt {
+    color: rgb(37, 63, 32);
+    font-family: 'fusion-pixel-12px-proportional';
+}
+
+.fm {
+    background-color: rgb(37, 63, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.jj {
+    color: rgb(37, 63, 32);
+    font-size: 7px;
+    font-family: 'fusion-pixel-12px-proportional';
+}
+
+.dbt {
+    color: rgb(37, 63, 32);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'fusion-pixel-12px-proportional';
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 4px;
+    background-color: rgb(61, 98, 54);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100%;
+    background-color: rgb(205, 226, 155);
+}
